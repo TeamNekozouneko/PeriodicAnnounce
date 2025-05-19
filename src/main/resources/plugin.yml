@@ -1,5 +1,5 @@
 name: PeriodicAnnounce
-version: '1.0-SNAPSHOT'
+version: ${project.version}
 main: com.nekozouneko.periodicAnnounce.PeriodicAnnounce
 api-version: '1.21'
 folia-supported: true
