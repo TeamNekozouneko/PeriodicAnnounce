@@ -2,7 +2,6 @@ package com.nekozouneko.periodicAnnounce
 
 import com.nekozouneko.periodicAnnounce.commands.PAnnounceCommand
 import com.nekozouneko.periodicAnnounce.tasks.PeriodicMessageTask
-import lombok.Getter
 import org.bukkit.plugin.java.JavaPlugin
 
 class PeriodicAnnounce : JavaPlugin() {
