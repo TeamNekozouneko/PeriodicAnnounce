@@ -5,3 +5,14 @@ api-version: '1.21'
 folia-supported: true
 description: 定期的にメッセージを流すだけのプラグイン
 author: RunQ
+
+commands:
+  pannounce:
+    aliases: [ periodannounce ]
+    description: "PeriodAnnounceのメインコマンド"
+    usage: "/<command>"
+    permission: periodannounce
+
+permissions:
+  periodannounce:
+    default: op
